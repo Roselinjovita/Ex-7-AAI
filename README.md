@@ -76,22 +76,25 @@ def generate_summary(text):
 if __name__=="__main__":
 	input_text ="""
 Artificial Intelligence (AI) is a field of computer science.
-It creates systems that perform tasks needing human-like intelligence, such as understanding language and recognizing patterns.
-AI is used in virtual assistants, recommendation engines, medical diagnostics, and self-driving cars.
-It learns from data and improves over time through techniques like machine learning. AI is transforming industries and changing how we live and work."""
+It creates systems that perform tasks needing human-like intelligence, 
+such as understanding language and recognizing patterns.
+AI is used in virtual assistants, recommendation engines,
+medical diagnostics,and self-driving cars.
+It learns from data and improves over time through techniques like machine learning.
+AI is transforming industries and changing how we live and work."""
 summary = generate_summary(input_text)
 print("Original Text: ")
 print (input_text )
 print( " \nSummary : " )
 print(summary)
 
+
 ```
 
 <H3>Output</H3>
 
 
-
-![Screenshot 2024-11-08 210512](https://github.com/user-attachments/assets/c7879884-6b6a-417b-885f-7cab2692178c)
+![Screenshot 2024-11-08 211141](https://github.com/user-attachments/assets/f42aeb07-16d7-48aa-bd67-6ad4cdebdc09)
 
 
 
